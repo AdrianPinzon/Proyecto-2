@@ -8,9 +8,13 @@ package Structure;
  *
  * @author eduardopinzon
  */
-public class Main {
+public class Nodo {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    int dato;
+    Nodo sig;
+    
+    public Nodo (int dato){
+        this.dato = dato;
+        this.sig = null;
     }
 }
