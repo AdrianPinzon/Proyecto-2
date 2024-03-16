@@ -5,13 +5,20 @@ package Classes;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-/**
- *
+/** Atributos para Clases
+ *Metodo para Clases
  * @author eduardopinzon
  */
 public class Clients {
+    
     String nombre;
     String apellido;
-    int habitacion;
+    double habitacion;
     String key = nombre + apellido;
+    
+    public static void main() {
+        Clients key = new Clients();
+        
+    }
+    
 }
