@@ -21,13 +21,11 @@ public class LinkedList {
 }
     
     public void InsertarPrimero (int dato) {
-//        Condicional (ojo con la sintaxis)(el parentesis es para cuando quieres poner condiciones, para mas nada )
         if (this.primero == null){
             this.primero = new Nodo(dato);
            
         } else {
             Nodo nuevo = new Nodo(dato);
-//            Para apuntar, me voy a referir a la variable (en este caso, la variable es nuevo)
             nuevo.sig = this.primero;
             this.primero = nuevo;
         } 
